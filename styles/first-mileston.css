@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header {
+    background-image:url(../images/banner/banner2.png);
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin: 221px 230px 365px 845px;
+
+
+    color: #151414;
+}
+
+.header-details {
+    width: 494px;
+    height: 78px;
+    left: 976px;
+    top: 468px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: right;
+
+
+    color: #444343;
+}
+
+.btn-text {
+    color: antiquewhite;
+
+}
+
+.btn-contact-us {
+    width: 160px;
+    height: 64px;
+    left: 1310px;
+    top: 600px;
+    right: 500px;
+    background: #fc9917;
+    padding: 20px 25px;
+    border: 0;
+
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.my-failures {
+    color: #151414;
+    width: 288px;
+    height: 94px;
+    left: 1062px;
+    top: 1178px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.my-failures-description {
+    width: 416px;
+    height: 104px;
+    left: 1062px;
+    top: 1296px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #444343;
+}
+
+.my-failures-list {
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
+
+}
+
+.my-plans-title {
+    text-align: right;
+}
+
+.skill-title {
+    width: 270px;
+    height: 35px;
+    left: 230px;
+    top: 2012.26px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #151414;
+}
