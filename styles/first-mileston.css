@@ -4,21 +4,30 @@
 
 }
 
-.header {
+/* header and navigation styles */
+nav{
     background-image: url(../images/banner/banner2.png);
-    text-align: center;
+}
+.header-tittle{
+  
+    text-align: right;
     justify-content: center;
     font-style: normal;
     font-weight: 500;
     font-size: 65px;
     line-height: 76px;
     margin: 0 230px 365px 845px;
+    /* font-family: Work Sans;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: right;
 
 
-    color: #151414;
+    color: #151414; */
 }
 
-.header-details {
+.header-details{
     width: 494px;
     height: 78px;
     left: 976px;
@@ -28,19 +37,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
-    text-align: right;
-
-
     color: #444343;
 }
 
-.btn-text {
+.btn-text{
     color: antiquewhite;
 
 }
 
-.btn-contact-us {
+.btn-contact-us{
     width: 160px;
     height: 64px;
     left: 1310px;
@@ -131,14 +136,17 @@ main {
     left: 294px;
     top: 2393.3px;
     padding: auto;
-    
+
 }
-.call-us-text{
+
+.call-us-text {
     color: #F15B22;
 }
-.footer{
+
+.footer {
     background: #151414;
 }
+
 /* .img {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 
