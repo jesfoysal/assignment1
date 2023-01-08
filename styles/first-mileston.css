@@ -9,6 +9,7 @@ nav {
     background-image: url(../images/banner/banner2.png);
     display: flex;
     margin: 50 200px;
+    background-repeat: no-repeat;
 }
 
 nav ul {
@@ -139,16 +140,33 @@ main {
 }
 
 .call-us {
+    position: absolute;
     width: 160px;
     height: 64px;
-    left: 294px;
-    top: 2393.3px;
+    left: 28%;
+    top: 170%;
     padding: auto;
 
 }
+.last-background{
+    background-image: url"(./image/watch)" 
 
-.call-us-text {
-    color: #F15B22;
+}
+.main-foot{
+    position: absolute;
+    left: 28%;
+    top: 163%;
+    color:rgb(245, 240, 240) ;
+    font-size: 40px;
+}
+
+.call-now-btn {
+    color: #eb9370;
+    padding: 20px 33px ;
+    border-radius: 5px;
+    position: absolute;
+    left: 28%;
+    top: 170%;
 }
 
 footer {
@@ -157,11 +175,19 @@ footer {
 }
 .btn-sub{
     color: #eb9370;
-    padding: 20 30px ;
+    padding: 20px 33px ;
     border-radius: 5px;
 
 }
+.footer-container > {
+    display: flex;
+}
 
+.footer-1{
+    color: aliceblue;
+    margin-top: 10%;
+    margin-left: 10%;
+}
 /* .img {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 
