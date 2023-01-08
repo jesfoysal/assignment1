@@ -5,16 +5,27 @@
 }
 
 /* header and navigation styles */
-nav{
+nav {
     background-image: url(../images/banner/banner2.png);
+    display: flex;
+    margin: 50 200px;
 }
-.header-tittle{
-  
+
+nav ul {
+    display: flex;
+}
+nav li{
+    margin-bottom: 50px;
+}
+
+.nav-tittle {
+
     text-align: right;
     justify-content: center;
     font-style: normal;
     font-weight: 500;
     font-size: 65px;
+    top: 10%;
     line-height: 76px;
     margin: 0 230px 365px 845px;
     /* font-family: Work Sans;
@@ -27,25 +38,22 @@ nav{
     color: #151414; */
 }
 
-.header-details{
-    width: 494px;
-    height: 78px;
-    left: 976px;
-    top: 468px;
+.header-details {
+    text-align: right;
 
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    color: #202020;
 }
 
-.btn-text{
+.btn-text {
     color: antiquewhite;
 
 }
 
-.btn-contact-us{
+.btn-contact-us {
     width: 160px;
     height: 64px;
     left: 1310px;
@@ -143,8 +151,15 @@ main {
     color: #F15B22;
 }
 
-.footer {
+footer {
     background: #151414;
+  
+}
+.btn-sub{
+    color: #eb9370;
+    padding: 20 30px ;
+    border-radius: 5px;
+
 }
 
 /* .img {
