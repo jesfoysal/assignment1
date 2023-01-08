@@ -5,13 +5,14 @@
 }
 
 .header {
-    background-image:url(../images/banner/banner2.png);
-    text-align: right;
+    background-image: url(../images/banner/banner2.png);
+    text-align: center;
+    justify-content: center;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 65px;
     line-height: 76px;
-    margin: 221px 230px 365px 845px;
+    margin: 0 230px 365px 845px;
 
 
     color: #151414;
@@ -48,7 +49,10 @@
     background: #fc9917;
     padding: 20px 25px;
     border: 0;
+}
 
+section {
+    margin: 120px;
 }
 
 main {
@@ -57,17 +61,10 @@ main {
 }
 
 .my-failures {
-    color: #151414;
-    width: 288px;
-    height: 94px;
-    left: 1062px;
-    top: 1178px;
-    text-align: center;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 1039px;
 }
 
 .my-failures-description {
@@ -93,6 +90,9 @@ main {
 }
 
 .my-plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
     text-align: right;
 }
 
@@ -107,9 +107,39 @@ main {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    text-align: center;
-
-    /* Dark 01 */
-
+    text-align: left;
     color: #151414;
 }
+
+.skills-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.item-container {
+    display: flex;
+}
+
+.skill-description {
+    text-align: left;
+}
+
+.call-us {
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2393.3px;
+    padding: auto;
+    
+}
+.call-us-text{
+    color: #F15B22;
+}
+.footer{
+    background: #151414;
+}
+/* .img {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+
+} */
